@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>F2P Games Platform</title>
+</head>
+
+<body>
+    <!-- games showcase -->
+    <section class="games pb-5">
+        <header>
+            <img src="images/wraper.png" alt="games background" class="w-100" />
+        </header>
+
+        <nav class="navbar navbar-expand-lg bg-transparent position-sticky top-0 z-3">
+            <div class="container">
+                <a class="navbar-brand text-uppercase text-white d-flex align-items-center" href="#">
+                    <img src="images/logo-sm.png" alt="Logo" class="d-inline-block align-text-top me-2">
+                    Game Reviews
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">MMORPG</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SHOOTER</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SAILING</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PERMADEATH</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SUPERHERO</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PIXEL</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="container mt-5">
+            <section id="gamesShowcase" class="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+
+            </section>
+        </main>
+
+    </section>
+
+    <!-- game details -->
+    <section class="details text-white d-none">
+        <div class="container">
+            <header class="d-flex justify-content-between align-items-center">
+                <h2>Game Title</h2>
+                <button id="btnClose" class="btn-close btn-close-white"></button>
+            </header>
+
+            <div class="body row">
+                <div class="col-md-4">
+                    <img class="w-100" src="https://www.freetogame.com/g/582/thumbnail.jpg" alt="" />
+                </div>
+
+                <div class="col-md-8">
+                    <h3>[[GameTitle]]</h3>
+
+                    <p>
+                        Category:
+                        <span class="badge text-bg-info">[[Category]]</span>
+                    </p>
+
+                    <p>
+                        Platform:
+                        <span class="badge text-bg-info">[[Platform]]</span>
+                    </p>
+
+                    <p>
+                        Status:
+                        <span class="badge text-bg-info">[[Status]]</span>
+                    </p>
+
+                    <p class="small">
+                        [[Big_Description]]
+                    </p>
+
+                    <a class="btn btn-outline-warning" target="_blank" href="">Show Game</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- loading screen -->
+     <div class="loading d-none">
+        <span class="loader"></span>
+     </div>
+
+
+    <!-- scripts -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
